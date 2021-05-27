@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tasty Chicken</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+
+    <string name="title_activity_detail">Meal Detail</string>
+    <string name="no_data">You have no favorite meal yet. Add your favorite meal now!</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="title_maps">Maps</string>
+    <string name="image_description">Image</string>
+    <string name="text_primary">Sample of title text</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+    <string name="splash_title">Submission Capstone MADE</string>
+    <string name="item_name">Meal Name</string>
+    <string name="detail_desc">Instruction</string>
+    <string name="video">Watch Video</string>
+    <string name="floating_button">floating_button</string>
+</resources>

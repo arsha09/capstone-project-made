@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.arsha.capstoneakhir">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="id.arsha.capstoneakhir.MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SubmissionCapstone"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="id.arsha.capstoneakhir.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SubmissionCapstone.NoActionBar">
+        </activity>
+
+        <activity android:name="id.arsha.capstoneakhir.splash.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="id.arsha.capstoneakhir.detail.DetailMealActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="id.arsha.capstoneakhir.MainActivity"
+            android:theme="@style/Theme.SubmissionCapstone.NoActionBar" />
+    </application>
+
+</manifest>
