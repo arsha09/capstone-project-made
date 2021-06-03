@@ -1,6 +1,7 @@
 package id.arsha.core.di
 
 import androidx.room.Room
+import id.arsha.core.BuildConfig
 import id.arsha.core.data.MealRepository
 import id.arsha.core.data.source.local.LocalDataSource
 import id.arsha.core.data.source.local.room.MealDatabase
@@ -22,7 +23,7 @@ import java.util.concurrent.TimeUnit
 val databaseModule = module {
     factory { get<MealDatabase>().mealDao() }
     single {
-        val passphrase: ByteArray = SQLiteDatabase.getBytes("dicoding".toCharArray())
+        val passphrase: ByteArray = SQLiteDatabase.getBytes("mealart".toCharArray())
         val factory = SupportFactory(passphrase)
         Room.databaseBuilder(
             androidContext(),
